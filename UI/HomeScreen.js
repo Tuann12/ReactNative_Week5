@@ -6,7 +6,6 @@ import Arrow from '../assets/arrow.png';
 function HomeScreen({ navigation, route }) {
     const imgPhone = route.params;
 
-    console.log(imgPhone);
     return (
         <View style={styles.container}>
             <View style={styles.content}>
